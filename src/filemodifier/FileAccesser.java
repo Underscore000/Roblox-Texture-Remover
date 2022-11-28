@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FileAccesser {
-    private final List<String> textureFoldersList = new ArrayList<>(Arrays.asList("brick", "cobblestone", "concrete", "corrodedmetal", "diamondplate", "fabric", "foil", "granite", "grass", "ice", "marble", "metal", "pebble", "plastic", "sand", "slate", "wood", "woodplanks"));
+    private final List<String> textureFoldersList = new ArrayList<>(Arrays.asList("brick", "cobblestone", "concrete", "corrodedmetal", "diamondplate", "fabric", "foil", "granite", "ice", "marble", "metal", "pebble", "plastic", "sand", "slate", "wood", "woodplanks"));
 
     private final File robloxDirectory = new File("C:\\Users\\jaron\\AppData\\Local\\Roblox\\Versions\\" + getFolder(new File("C:\\Users\\jaron\\AppData\\Local\\Roblox\\Versions"))[1]);
     private final File texturesDirectory = new File(robloxDirectory + "\\PlatformContent\\pc\\textures\\");

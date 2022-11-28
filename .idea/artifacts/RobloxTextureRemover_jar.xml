@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RobloxTextureRemover:jar">
+    <output-path>$PROJECT_DIR$/../RobloxTextureRemover/out/artifacts/RobloxTextureRemover_jar</output-path>
+    <root id="archive" name="RobloxTextureRemover.jar">
+      <element id="module-output" name="RobloxTextureRemover" />
+    </root>
+  </artifact>
+</component>
